@@ -1,3 +1,5 @@
+/* colors de la web */
+
 :root {
   --orange: #fcb782;
   --light-orange: #faefe3;
@@ -56,6 +58,8 @@ h1 {
   padding: 67px;
   background: linear-gradient(to bottom, var(--orange) 85%, var(--white) 85%);
 }
+
+/* divisió de la pàgina en columnes */
 
 .container {
   display: flex;
@@ -223,6 +227,8 @@ h1 {
   padding: 25px;
   text-align: center;
 }
+
+/* tres columnes de selected works */
 
 .gridbox {
   display: grid;
@@ -427,6 +433,8 @@ h1 {
   height: 130px;
 }
 
+/* perquè giri */
+
 .footer-stamp .text-badge {
   animation: rotate linear 5s infinite;
   animation-play-state: paused;
@@ -444,6 +452,7 @@ h1 {
 .footer-stamp rect {
   fill: #faefe3;
 }
+/* peruqè giri */
 
 @keyframes girar {
   from {
@@ -476,6 +485,8 @@ h1 {
   font-size: 16px;
   color: var(--dark-grey);
 }
+
+/* perquè no es vegi tan malament a pantalles petites */
 
 @media (max-width: 1200px) {
   .gridbox {
